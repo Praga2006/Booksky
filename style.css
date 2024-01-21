@@ -1,0 +1,134 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+body
+{
+    font-family: 'Poppins',sans-serif;
+}
+#navbar
+{
+    background-color: #FD6569;
+    padding: 10px;
+}
+#books
+{
+    padding: 10px;
+}
+#book1
+{
+    padding: 15px;
+    background-color: black;
+    color: antiquewhite;
+    width: 25%;
+    border-radius: 10%;
+    margin: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+#book1 button
+{
+    display: inline-block;
+    padding: 5px;
+    padding-bottom: 5px;
+    border-radius: 15px;
+    background-color: aquamarine;
+    border-style: groove;
+    cursor: pointer;
+}
+#book1 h2
+{
+    color: #FD6569;
+}
+#book1 h5
+{
+    margin-left: 190px;
+    color: burlywood;
+}
+.addbtn
+{
+    background-color: #FD6569;
+    border-radius: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 40px;
+    bottom: 0px;
+    right: 0px;
+    position: fixed;
+    bottom: 20px;
+    right:20px;
+    border: none;
+    cursor: pointer;
+}
+#layover
+{
+    background-color: rgb(0, 0, 0);
+    opacity: 0.7;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top:0px;
+    left: 0px;
+    z-index: 1;
+    display: none;
+}
+#popup
+{
+    display: none;
+    background-color: #FD6569;
+    width: 40%;
+    padding: 40px;
+    border-radius: 10px;
+    position: absolute;
+    padding-right: 75px;
+    top: 20%;
+    left: 30%;
+    font-size: 40px;
+    z-index: 2;
+
+}
+#popup input
+{
+    background: transparent;
+    padding-right: 40px;
+    padding-top: 25px;
+    font-size: 30px;
+    width: 100%;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: solid black 2px;
+}
+#popup input::placeholder
+{
+    color: black;
+}
+#popup textarea::placeholder
+{
+    color: black;
+}
+#popup textarea
+{
+    background: transparent;
+    padding-right: 40px;
+    padding-top: 25px;
+    font-size: 30px;
+    width: 100%;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: solid black 2px;
+}
+#popup button
+{
+    background-color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    font-size: 20px;
+    color: #FD6569;
+    cursor: pointer;
+} 
